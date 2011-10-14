@@ -20,7 +20,7 @@ $(document).ready(function(){
 	});
 	
 	
-	$('ul#video-list').youtubeinator({
+	$('ul#video-list').youtubegallery({
 		addThumbs:        true, 
 		autoPlay:         false,
 		thumbSize:        'large',

@@ -12,7 +12,7 @@ String.prototype.startsWith = function(str){
 }
 
 
-jQuery.fn.youtubeinator = function(options) {
+jQuery.fn.youtubegallery = function(options) {
  
   // default settings
   var options = jQuery.extend( {
