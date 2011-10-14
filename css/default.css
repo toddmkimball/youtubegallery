@@ -1,0 +1,50 @@
+#video-list-container {
+	width: 600px;
+	margin: auto;
+}
+
+#video-list-container #loading {
+	width: 75px;
+	margin: auto;
+}
+
+
+#youtube-player-container {
+	/* overlay is hidden before loading */
+	display:none;
+
+	/* standard decorations */
+	width:  560px;
+	height: 370px;
+	border: 2px solid #666;
+	
+	padding-top: 10px;
+
+	/* for modern browsers use semi-transparent color on the border. nice! */
+	border:2px solid rgba(82, 82, 82, 0.698);
+
+	/* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+	-moz-border-radius:2px;
+	-webkit-border-radius:5px;
+}
+
+
+/* close button positioned on upper right corner */
+#youtube-player-container .close {
+	position:absolute;
+	right:-1px;
+	top:-5px;
+	cursor:pointer;
+	height:10px;
+	width:10px;
+}
+
+#video-list {
+	list-style: none;
+}
+
+#video-list li {
+	float: left;
+	width: 300px;
+	height: auto;
+}
