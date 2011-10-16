@@ -15,7 +15,7 @@ String.prototype.startsWith = function(str){
 jQuery.fn.youtubegallery = function(options) {
  
   // default settings
-  var options = jQuery.extend( {
+  var options = jQuery.extend({
     holderId: 'ytvideo',
 	playerHeight: 360,
 	playerWidth: 560,
