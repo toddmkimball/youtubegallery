@@ -1,10 +1,10 @@
 //-----------------------------------------------------------
-//		youtubeinator jquery plugin
+//		youtubegallery jquery plugin
 //		
 //		based on jquery.youtubeplaylist.js by dan@geckonm.com
 //
-//		modified by: Ben Smith
-//		converted to youtubeinator by Todd Kimball
+//		modified by Ben Smith
+//		converted to youtubegallery by Todd Kimball
 //-----------------------------------------------------------
 
 String.prototype.startsWith = function(str){
